@@ -1,0 +1,48 @@
+{
+  "name": "second_try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "cross-env NODE_ENV=dev gulp",
+    "build": "cross-env NODE_ENV=prod gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilinskiy-ya/--------------.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilinskiy-ya/--------------/issues"
+  },
+  "homepage": "https://github.com/ilinskiy-ya/--------------#readme",
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-smile-px2rem": "^0.1.0",
+    "jQuery": "^1.7.4",
+    "jquery": "^3.6.0",
+    "jquery-touchswipe": "^1.6.19",
+    "normalize.css": "^8.0.1",
+    "swiper": "^6.8.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "cross-env": "^7.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-rm": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgo": "^2.2.1",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.0",
+    "webpack": "^5.51.1"
+  }
+}
